@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Online Trial Room Program</title>
+    </head>
+    <body>
+        <h1>Online Trial Room Program</h1>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br>
+            <label for="product">Product:</label>
+            <select name="product" required>
+                <option value="">-- Select a product --</option>
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                <option value="product3">Product 3</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
